@@ -4,10 +4,9 @@
 package main
 
 import (
-	"github.com/cerbos/protoc-gen-go-hashpb/internal/generator"
 	"google.golang.org/protobuf/compiler/protogen"
 )
 
 func main() {
-	protogen.Options{}.Run(generator.Generate)
+	protogen.Options{}.Run(Generate)
 }
